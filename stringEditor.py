@@ -15,7 +15,7 @@ print("3. Information about the current string")
 print("4. Clear the current string")
 print("5. Exit")
 newString = ""
-for i in range(2):
+    i = 0
     while i < 1:
         w=int(input("Please enter the number of intended work: "))
         if w == 1:
@@ -28,7 +28,7 @@ for i in range(2):
             print("2. Total occurrence(s) of a word")
             print("3. Total number of words")
             print("4. Back")
-            for j in range(2):
+                j = 0
                 while j < 1:
                     w2 = int(input("What do you want to know about the string: "))
                     if w2 == 1:
@@ -41,7 +41,7 @@ for i in range(2):
                     if w2 == 3:
                         print("There are " + str(len(string_list))+ " word(s) in the string.")
                     if w2 == 4:
-                        j=1
+                        j=0
         if w == 4:
             newString = ""
             print("The current string is empty now.")
