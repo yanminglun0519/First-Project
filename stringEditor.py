@@ -1,6 +1,6 @@
 # Python little project on String Manipulation
 # 2018/08/07 Started
-#          Finished
+# 2018/08/08 Finished
 # Yan, Ming-Lun
 
 import string
